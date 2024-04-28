@@ -1,7 +1,7 @@
 # Delicious Food Frontend Web Design
 
 ## Description:
-This project involves the design and development of a front-end website for a fictitious restaurant called "Delicious Food." The website aims to provide online services to customers and enhance their user experience.
+This project involves the design a front-end website for a fictitious restaurant called "Delicious Food." The website aims to provide online services to customers and enhance their user experience.
 Users of this website can:
 - Place online food orders: Customers can order food from the restaurant's menu online and pay securely through integrated payment gateways.
 - Access contact information: The restaurant's contact information, including address, phone number, and business hours, is clearly displayed on the website.
