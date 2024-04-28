@@ -10,7 +10,7 @@ Users of this website can:
 
 ## Key Features:
 - Responsive design: The website is designed to adapt and display correctly on all devices, including desktops, tablets, and mobile phones, ensuring a consistent user experience across different platforms.
-- User-friendly interface: The website's interface is simple and easy to navigate, allowing users to effortlessly find the information they need and utilize the restaurant's services.
+- Usability interface: The website's interface is simple and easy to navigate, allowing users to effortlessly find the information they need and utilize the restaurant's services.
 
 ##	Programming languages: 
 - HTML: For structuring and building the website's pages.
