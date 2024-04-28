@@ -1,0 +1,62 @@
+.reserve {
+  grid-column: 1/-1;
+}
+.reserve-section {
+  display: grid;
+  grid-template-columns: 50px repeat(4, 1fr) 50px;
+  grid-template-rows: 1fr;
+  padding: 55px;
+  text-align: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(77, 76, 79, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/pics/1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.right {
+  background-color: rgba(0, 0, 0, 0.705);
+  color: white;
+  grid-column: 2/3;
+  display: grid;
+  grid-template-rows: 2fr repeat(3, 0.5fr) 2fr;
+  padding-top: 15px;
+}
+.left {
+  background-color: rgba(255, 255, 255, 0.664);
+  grid-column: 3/6;
+  display: grid;
+  padding: 10px;
+  grid-template-rows: 0.5fr 1fr 0.5fr 1fr;
+  justify-content: space-evenly;
+}
+.left-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.leftbox-img {
+  height: 100%;
+  width: 120px;
+  clip-path: circle(30% at 50% 50%);
+}
+.left-title,
+.reserve-branch {
+  color: goldenrod;
+  font-family: "Croissant One", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Satisfy", cursive;
+}
+.parantes {
+  color: goldenrod;
+}
+.order-text {
+  align-self: center;
+  font-family: "Croissant One", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Satisfy", cursive;
+  padding-bottom: 2rem;
+}

@@ -1,0 +1,41 @@
+.gallery {
+  grid-column: 1/-1;
+}
+.gallery-section {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3, 200px);
+  padding: 20px 50px;
+  gap: 1rem;
+  grid-template-areas: 
+  "gallery_1 gallery_1 gallery_2"
+  "gallery_3 gallery_4 gallery_2"
+  "gallery_3 gallery_5 gallery_5";
+}
+.image-gallery{
+   width: 100%;
+   border-radius: 15px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.gallery1 {
+  background-image: url(/pics/gallery1.jpg);
+  grid-area: gallery_1;
+}
+.gallery2 {
+  background-image: url(/pics/gallery2.jpeg);
+  grid-area: gallery_2;
+}
+.gallery3 {
+  background-image: url(/pics/gallery3.jpeg);
+  grid-area: gallery_3;
+}
+.gallery4 {
+  background-image: url(/pics/gallery4.jpeg);
+  grid-area: gallery_4;
+}
+.gallery5 {
+  background-image: url(/pics/gallery5.jpeg);
+  grid-area: gallery_5;
+}
